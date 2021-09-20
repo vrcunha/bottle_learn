@@ -2,7 +2,7 @@ from bottle import route, run, template
 
 @route('/')
 def index():
-    return '<h1>Welcome!</h1>'
+    return '<h1>Welcome to Hello world page!</h1>'
 
 @route('/hello/<name>')
 def hello(name):
